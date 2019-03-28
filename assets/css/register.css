@@ -1,0 +1,152 @@
+/**
+ * name: Musify
+ * description: CSS Style for the register page
+ * author: HAMDAOUI Mohammed-Yassin
+ * version: 1.0
+ */
+
+* {
+ 	box-sizing: border-box;
+ 	padding: 0;
+ 	margin: 0;
+ 	outline: none;
+}
+
+ #background {
+ 	background: url("../images/bg.jpg");
+ 	background-size: cover;
+ 	background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#loginContainer {
+	width: 80%;
+    margin: 0 auto;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #fff;
+    font-weight: normal;
+    position: relative;
+    max-width: 1024px;
+}
+
+#input-container {
+	width: 400px;
+	padding: 45px;
+	float: left;
+	border-right: 1px solid #999;
+	height: 100vh;
+}
+
+.input-groupe {
+	margin: 10px 0;
+}
+
+.input-groupe label {
+	display: block;
+	color: #a0a0a0;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.input-groupe input {
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid #fff;
+	height: 41px;
+	width: 100%;
+	color: #fff;
+}
+
+#input-container h2 {
+	text-align: center;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+
+#input-container button {
+	background: transparent;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 700;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+#input-container button:hover {
+	background: #fff;
+	color: #393a39;
+}
+
+::-webkit-input-placeholder { 
+	color: #fff;
+}
+
+:-moz-placeholder { 
+	color: #fff;
+	opacity: 1;
+}
+
+
+::-moz-placeholder { 
+	color: #fff;
+	opacity: 1;
+}
+
+:-ms-input-placeholder { 
+	color: #fff;
+}
+
+::-ms-input-placeholder { 
+	color: #fff;
+}
+
+.hasAccountText {
+	text-align: center;
+}
+
+.hasAccountText span{
+	font-size: 13px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+#login-form,
+#register-form {
+	display: none;
+}
+
+.login-text {
+	padding: 45px;
+	display: table-cell;
+}
+
+.login-text h1 {
+	color: #07d159;
+	font-size: 60px;
+	font-weight: bold; 
+}
+
+.login-text h2 {
+	margin: 35px 0;
+	font-weight: normal;
+	letter-spacing: 1px;
+}
+
+.login-text ul {
+	list-style: none;
+	font-size: 20px;
+}
+
+.login-text ul li {
+	padding: 10px; 
+}
+
+.error-message {
+	color: #07d159;
+    font-size: 12px;
+}
